@@ -1,0 +1,15 @@
+{
+  "name": "template-project",
+  "version": "1.0.0",
+  "description": "A template for a project : vite, typescript, react, react-router, tailwind, node, express, zustand, swr, eslint and prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Grego Nunez",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
