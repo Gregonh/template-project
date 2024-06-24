@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Grego Nunez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
