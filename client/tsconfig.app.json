@@ -8,8 +8,8 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "outDir": "../dist/client", //all compiled javascript files will be placed here
+    "rootDir": "./src", //doesn´t affect which files compile, no interact with include
     "esModuleInterop": true, //avoid some problems with old libraries
     "allowJs": true,
     "noUncheckedIndexedAccess": true, //warn that array index could be undefined
@@ -29,6 +29,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["./src"],
+  "include": ["./src"], //files to compile and get javascript
   "exclude": ["node_modules"]
 }
