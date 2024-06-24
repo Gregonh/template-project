@@ -146,6 +146,7 @@ client/node_modules
 client/dist
 client/dist-ssr
 client/*.local
+client/src/data-sources
 
 # Editor directories and files
 .vscode/*
