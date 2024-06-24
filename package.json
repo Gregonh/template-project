@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "template-project",
   "version": "1.0.0",
   "description": "A template for a project : vite, typescript, react, react-router, tailwind, node, express, zustand, swr, eslint and prettier",
@@ -19,7 +20,14 @@
     "concurrently": "^8.2.2"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.5.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "3.3.2"
+    "eslint-plugin-react": "^7.34.3",
+    "globals": "^15.6.0",
+    "prettier": "3.3.2",
+    "typescript-eslint": "^7.13.1"
   }
 }
