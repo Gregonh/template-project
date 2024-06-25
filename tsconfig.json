@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true, //avoid some problems with old libraries
+    "allowJs": true,
+    "noUncheckedIndexedAccess": true, //warn that array index could be undefined
+    "noEmit": true,
+    "useDefineForClassFields": true,
+    /* Bundler mode */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./client/tsconfig.app.json"
+    },
+    {
+      "path": "./server/tsconfig.node.json"
+    }
+  ]
+}

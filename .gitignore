@@ -131,6 +131,12 @@ out
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# SERVER
+server/node_modules
+server/dist
+server/dist-ssr
+server/*.local
+
 # CLIENT IGNORE
 
 # Logs
@@ -146,6 +152,7 @@ client/node_modules
 client/dist
 client/dist-ssr
 client/*.local
+client/data-sources
 
 # Editor directories and files
 .vscode/*
