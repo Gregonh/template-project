@@ -7,3 +7,18 @@
 .prettierignore
 .gitignore
 
+# tsconfig.node.json
+# tsconfig.app.json
+# tsconfig.json
+# vite.config.ts
+# tsconfig.vite.json
+# tailwind.config.js
+# postcss.config.js
+# package.json
+# package-lock.json
+
+
+
+
+
+

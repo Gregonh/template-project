@@ -14,7 +14,7 @@ module.exports = {
   settings: {
     ecmaVersion: 'latest',
     react: {
-      reactVersion: 'detect',
+      version: 'detect',
     },
     // need this settings to resolve our imports
     'import/resolver': {
