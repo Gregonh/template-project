@@ -15,19 +15,25 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "files": [],
-  "references": [
-    {
-      "path": "./client/tsconfig.app.json"
-    },
-    {
-      "path": "./server/tsconfig.node.json"
+    "noFallthroughCasesInSwitch": true,
+
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "outDir": "../dist/client", //all compiled javascript files will be placed here
+    "rootDir": "./src", //doesn't affect which files compile, no interact with include
+    /* Bundler mode */
+    "jsx": "react-jsx",
+    "baseUrl": ".", // Setting the baseUrl for module resolution
+    "paths": {
+      "@/*": ["./src/*"] // Alias for resolving paths
     }
-  ]
+  },
+  "include": ["./src/**/*"], //files to compile and get javascript
+  "exclude": ["node_modules"]
 }

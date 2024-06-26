@@ -1,22 +1,22 @@
 import { useState } from 'react';
 
+// eslint-disable-next-line import/no-unresolved
+import { Button } from '@/components/ui/button';
+
 function Home() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+      <div>
+        <Button
+          onClick={() => setCount((count) => count + 1)}
+          className="bg-blue-400 text-red-900"
+        >
           count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        </Button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }

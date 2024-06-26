@@ -113,12 +113,7 @@ module.exports = {
       ],
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: [
-          './tsconfig.json',
-          './client/tsconfig.app.json',
-          './server/tsconfig.node.json',
-          './client/tsconfig.vite.json',
-        ],
+        project: ['./client/tsconfig.json', './client/tsconfig.vite.json'],
         //project: true, //para que function el recommended-requiring-type-checking buscando en el tsconfig
       },
       plugins: ['@typescript-eslint/eslint-plugin'],
